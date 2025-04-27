@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Market</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color:#206625;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .container h2{
+            color: #4CAF50;
+        }
+        .container:hover{
+            transform: scale(1.05);
+    
+    transition: transform 0.3s ease-in-out;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to AgriConnect</h1>
+    </header>
+    <nav>
+        <a href="farmer_login.php">Farmer Login</a>
+        <a href="user_login.php">User Login</a>
+        <a href="farmer_register.php">Farmer Register</a>
+        <a href="user_register.php">User Register</a>
+    </nav>
+    <div class="container">
+        <h2>About Our Platform</h2>
+        <p>Connect directly with farmers to buy fresh products.</p>
+        <p>Here you can buy products directly with farmers in much less prize.</p>
+    </div>
+    <footer>
+        <p>&copy; 2025 Farm Market. All rights reserved.</p>
+    </footer>
+</body>
+</html>
